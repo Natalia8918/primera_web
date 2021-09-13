@@ -1,0 +1,121 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    background-color: #18a4bc; 
+
+}
+
+body {
+    background-color: #000;
+}
+
+
+/* fuente*/
+
+body * {
+    font-family: 'Cabin', sans-serif;
+    color: var(--white);
+}
+
+/* nav + footer*/
+
+.img-logo {
+    width: 35px;
+    margin: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+nav {
+    padding: 0!important;
+}
+
+.navbar,
+footer {
+    background-color: #18a4bc; 
+    color: var(--white);
+    font-family: 'Lobster', cursive;
+}
+
+.nav-link {
+    font-family: 'Cabin', regular;
+    color: var(--white);
+}
+
+footer h3 {
+    color: var(--white);
+    font-family: 'Lobster', cursive;
+}
+
+#contacto a {
+    margin: 15px;
+}
+
+
+
+/*ícono*/
+
+.icon {
+    font-size: 37px;
+    padding: 0;
+}
+
+/* Estilo header*/
+
+header {
+    padding-top: 2.2rem!important;
+}
+
+
+/*Estilo carousel*/
+
+.carousel-indicators li {
+    top: 60px;
+    height: 0px;
+    border-radius: 50%;
+    background-color: var(--white);
+}
+
+.carousel-inner img{
+   height: 700px;
+   width: 100%;
+}
+
+/*QUIENES SOMOS*/
+
+.card-img-top {
+    width: 100%;
+    height: 150px;
+ }
+
+.card {
+    background-color: #18a4bc;
+}
+
+
+/*contacto*/
+
+#formulario {
+    background: #fff;
+    padding: 150px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+#formulario h6 {
+   color: #000;
+}
+
+/*quienes somos*/
+.color-icono {
+        background-color: #18a4bc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+   
+
+   
